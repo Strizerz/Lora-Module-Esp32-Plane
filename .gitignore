@@ -1,0 +1,49 @@
+# Compiled object files, binaries, and ELF files
+*.o
+*.elf
+*.bin
+*.hex
+
+# Temporary files and build directories
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
+*.d
+*.a
+*.dSYM/
+
+# Build output directories (Arduino IDE specific)
+.build/
+*.cpp~
+*.ino~
+
+# Sketchbook backup files
+*_backup.*
+
+# Arduino libraries installed via Library Manager
+libraries/**/examples/
+libraries/**/extras/
+libraries/**/test/
+
+# Logs and debug files
+*.csv
+*.out
+*.log
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Arduino project config files (optional to ignore)
+*.zip
+*.tar.gz
+
+# VS Code specific files
+.vscode/
+
+# Ignore the 'old' folder
+arduino\ scripts/old/
